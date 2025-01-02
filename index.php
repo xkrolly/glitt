@@ -1,6 +1,7 @@
 <?php
+//JUST testing how git works
 header("Access-Control-Allow-Origin: https://ravemodal-dev.herokuapp.com/v3/hosted/pay");
-
+$git = '';
 include_once 'includes/autoloader.inc.php';
 $imp = '';
 $pgv = new usersView();
